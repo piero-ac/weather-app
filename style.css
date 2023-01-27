@@ -56,6 +56,7 @@ body {
 }
 
 header {
+    margin-top: 30px;
     border: 1px solid red;
     width: 700px;
     text-align: center;
@@ -75,4 +76,36 @@ h1 {
     width: 65px;
     font-size: 1rem;
     display: inline-block;
+}
+
+main {
+    margin-top: 30px;
+    width: 700px;
+    border: 1px solid rgb(37, 231, 37);
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#city {
+    font-size: 4rem;
+}
+
+#current-temp {
+    font-size: 3rem;
+}
+
+#weather-name {
+    font-size: 2rem;
+}
+
+main div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 3rem;
 }
