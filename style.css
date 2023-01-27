@@ -57,7 +57,7 @@ body {
 
 header {
     margin-top: 30px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 700px;
     text-align: center;
     padding: 20px;
@@ -81,7 +81,7 @@ h1 {
 main {
     margin-top: 30px;
     width: 700px;
-    border: 1px solid rgb(37, 231, 37);
+    /* border: 1px solid rgb(37, 231, 37); */
     padding: 20px;
 
     display: flex;
